@@ -18,5 +18,5 @@ function bubbleSort(arr) {
   return arr;
 }
 
-console.log(bubbleSort(nums));
+bubbleSort(nums);
 // [0, 6, 7, 7, 63, 87, 634, 892, 976, 9536, 9999];
