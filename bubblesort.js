@@ -1,5 +1,3 @@
-const nums = [99999, 999, 99, 999999999, 9999999, 9999, 999999, 99999999, 9];
-
 function bubbleSort(arr) {
   // flag if items were swapped in iteration
   let swapped;
@@ -25,6 +23,3 @@ function bubbleSort(arr) {
   } while (swapped);
   return arr;
 }
-
-console.log(bubbleSort(nums));
-// [ 9, 99, 999, 9999, 99999, 999999, 9999999, 99999999, 999999999 ]
