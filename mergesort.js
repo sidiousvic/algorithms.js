@@ -1,5 +1,3 @@
-const nums = [99999, 999, 99, 999999999, 9999999, 9999, 999999, 99999999, 9];
-
 function mergeSort(arr) {
   // return size 1 arrays
   if (arr.length < 2) return arr;
@@ -22,6 +20,3 @@ function merge(left, right) {
   // return temp + left + right
   return [...temp, ...left, ...right];
 }
-
-console.log(mergeSort(nums));
-// [ 9, 99, 999, 9999, 99999, 999999, 9999999, 99999999, 999999999 ]
