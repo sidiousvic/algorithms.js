@@ -20,3 +20,6 @@ function merge(left, right) {
   // return temp + left + right
   return [...temp, ...left, ...right];
 }
+
+const nums = require('./nums');
+console.log(mergeSort(nums));

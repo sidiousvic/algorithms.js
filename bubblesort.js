@@ -23,3 +23,6 @@ function bubbleSort(arr) {
   } while (swapped);
   return arr;
 }
+
+const nums = require('./nums');
+console.log(bubbleSort(nums));
